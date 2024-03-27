@@ -54,9 +54,27 @@
             margin-top: 20px;
             font-weight: bold;
         }
+        .github-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            input[type="number"],
+            input[type="range"] {
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
+    <a href="https://github.com/KMKnation/Solar-Panel-Energy-Calculation" target="_blank" class="github-badge">
+        <img alt="GitHub" src="https://img.shields.io/badge/View%20on%20GitHub--lightgrey?logo=github">
+    </a>
     <div class="container">
         <h1>Solar Panel Energy Calculation</h1>
         <div class="inputs">
@@ -133,4 +151,3 @@
     </script>
 </body>
 </html>
-
